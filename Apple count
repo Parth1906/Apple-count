@@ -1,5 +1,5 @@
 available=0
-for i in range(5):
+for apples in range(5):
     no_of_apples=int(input("Enter the number of apples recieved from the garden: "))
     sold=int(input("Enter the number of apples sold:"))
     available= available + (no_of_apples - sold)
